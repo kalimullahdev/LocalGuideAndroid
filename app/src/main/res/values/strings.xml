@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">LocalGuide</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="home_page">Home Page</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="conform_password">Conform Password</string>
+    <string name="submit">Submit</string>
+</resources>
