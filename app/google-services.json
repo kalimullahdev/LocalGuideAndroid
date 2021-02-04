@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "900540591589",
+    "project_id": "localguide-8b822",
+    "storage_bucket": "localguide-8b822.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:900540591589:android:7c3635ff6f54e7bdfad30c",
+        "android_client_info": {
+          "package_name": "com.example.localguide"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "900540591589-si57qduljspndh61pmfl9en1kag6lh2t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCh3xc_C8aAlQaExJex8EpqWD-On9QM9c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "900540591589-si57qduljspndh61pmfl9en1kag6lh2t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
