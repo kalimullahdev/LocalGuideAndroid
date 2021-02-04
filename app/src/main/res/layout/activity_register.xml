@@ -10,51 +10,83 @@
     android:gravity="center"
     android:layout_margin="30dp">
 
+    <TextView
+        android:id="@+id/tv_welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register Here"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:layout_marginBottom="40dp"/>
+
+
     <EditText
         android:id="@+id/editTextTextPersonName"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="45dp"
+        android:paddingLeft="15dp"
+        android:layout_marginHorizontal="30dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:hint="@string/enter_name" />
+        android:hint="@string/enter_name"
+        android:background="@drawable/ed_bg"
+        android:layout_marginBottom="15dp"/>
 
 
     <EditText
         android:id="@+id/editTextTextEmailAddress"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="45dp"
+        android:paddingLeft="15dp"
+        android:layout_marginHorizontal="30dp"
         android:ems="10"
         android:inputType="textEmailAddress"
-        android:hint="@string/enter_email"/>
+        android:hint="@string/enter_email"
+        android:background="@drawable/ed_bg"
+        android:layout_marginBottom="15dp"/>
 
 
     <EditText
         android:id="@+id/editTextTextPassword"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginHorizontal="30dp"
+        android:paddingLeft="15dp"
         android:ems="10"
         android:inputType="textPassword"
-        android:hint="@string/enter_password"/>
+        android:hint="@string/enter_password"
+        android:background="@drawable/ed_bg"
+        android:layout_marginBottom="15dp"/>
 
     <EditText
         android:id="@+id/editTextTextPassword2"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="45dp"
+        android:paddingLeft="15dp"
         android:ems="10"
         android:inputType="textPassword"
-        android:hint="@string/conform_password"/>
+        android:layout_marginHorizontal="30dp"
+        android:hint="@string/conform_password"
+        android:background="@drawable/ed_bg"
+        android:layout_marginBottom="15dp"/>
 
     <Button
-        android:id="@+id/btn"
+        android:id="@+id/btn_register"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="45dp"
+        android:paddingHorizontal="25dp"
         android:text="Register"
-        android:onClick="doRegister"/>
+        android:layout_marginTop="25dp"
+        android:textAllCaps="false"
+        android:background="@drawable/btn_backgroud"/>
 
     <Button
-        android:id="@+id/login"
+        android:id="@+id/btn_goto_login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="To Login Click Here"
-        android:onClick="doLogin"/>
+        android:textAllCaps="false"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/btn_backgroud"/>
 </LinearLayout>

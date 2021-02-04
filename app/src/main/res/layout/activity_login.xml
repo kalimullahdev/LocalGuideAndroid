@@ -10,38 +10,72 @@
     android:gravity="center"
     android:layout_margin="30dp">
 
+    <TextView
+        android:id="@+id/tv_welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome Back !"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/tv_welcome_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stay signed in with your account to make searching easier"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:layout_marginBottom="40dp"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal" />
 
 
 
     <EditText
         android:id="@+id/editTextTextEmailAddress"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="45dp"
+        android:paddingLeft="15dp"
+        android:layout_marginHorizontal="30dp"
         android:ems="10"
         android:inputType="textEmailAddress"
-        android:hint="@string/enter_email"/>
+        android:hint="@string/enter_email"
+        android:background="@drawable/ed_bg"
+        android:layout_marginBottom="15dp"/>
 
 
     <EditText
         android:id="@+id/editTextTextPassword"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginHorizontal="30dp"
+        android:paddingLeft="15dp"
         android:ems="10"
         android:inputType="textPassword"
-        android:hint="@string/enter_password"/>
+        android:hint="@string/enter_password"
+        android:background="@drawable/ed_bg"
+        android:layout_marginTop="15dp"/>
 
 
     <Button
-        android:id="@+id/signIn"
+        android:id="@+id/btn_login"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="SignIn"
-        android:onClick="doSignIn"/>
+        android:layout_height="45dp"
+        android:paddingLeft="15dp"
+        android:text="Login"
+        android:onClick="doRegister"
+        android:layout_marginTop="35dp"
+        android:textAllCaps="false"
+        android:background="@drawable/btn_backgroud"/>
 
     <Button
-        android:id="@+id/Register"
+        android:id="@+id/btn_goto_register"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="To Register Click Here"
-        android:onClick="doRegister"/>
+        android:textAllCaps="false"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/btn_backgroud"/>
 </LinearLayout>
