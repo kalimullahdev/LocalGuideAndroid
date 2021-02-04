@@ -25,6 +25,20 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.163" />
 
+    <Button
+        android:id="@+id/btn_signOut"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginHorizontal="10dp"
+        android:background="@drawable/btn_backgroud"
+        android:paddingHorizontal="20dp"
+        android:text="SignOut"
+        android:textAllCaps="false"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 
     <Button
         android:id="@+id/btn_goto_map"
@@ -41,13 +55,13 @@
         app:layout_constraintEnd_toEndOf="parent" />
 
     <Button
-        android:id="@+id/btn_goto_"
+        android:id="@+id/btn_showArticles"
         android:layout_width="wrap_content"
         android:layout_height="45dp"
         android:layout_marginHorizontal="10dp"
         android:background="@drawable/btn_backgroud"
         android:paddingHorizontal="20dp"
-        android:text="Some Action"
+        android:text="Articles"
         android:textAllCaps="false"
         android:layout_marginBottom="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
